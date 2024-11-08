@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .tag{
+        @apply inline-block m-2 my-4 px-3 font-semibold border border-[]   border-[#F9CCC7] rounded-full  py-1 cursor-pointer hover:bg-[#F9CCC7] hover:text-white  duration-300  transition-all  dark:text-white  ;
+    }
+} 
